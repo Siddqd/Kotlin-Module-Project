@@ -4,9 +4,8 @@ class Menu() {
   open val actionList = mutableListOf<Pair<Int, () -> Unit>>()
   
   fun showMenu() {
-    if (!lambdaList.isEmpty()) {
-      lambdaList.forEach(println(lambdaList.first))
-        println(lambdaList.first)
+    if (!mlist.isEmpty()) {
+      mlist.forEachIndexed{i, value - > prinln(i+1 + " " + value.name)}
     }
   }
   fun selectMenu(nom : Int) {
