@@ -24,9 +24,6 @@ class NotesMenu(val archive : Archive) : Menu<Note>() {
         println((mlist.size + 1).toString() + ". Назад")
     }
 
-//    override fun start() {
-//        showMenu()
-//    }
     fun viewNote(note: Note) {
         val noteMenu = NoteMenu(note)
         noteMenu.start()

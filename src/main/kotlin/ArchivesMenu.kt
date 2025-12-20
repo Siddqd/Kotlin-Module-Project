@@ -36,21 +36,4 @@ class ArchivesMenu : Menu<Archive>() {
     notesMenu.start()
     this.start()
   }
-
-//  override fun start() {
-//    var nom : Int?
-//    while (true) {
-//      showMenu()
-//      nom = readlnOrNull()?.toIntOrNull()
-//      if(nom == null) {
-//        println("Введите число!")
-//      } else if (actionList.find {it.first == nom} == null) {
-//        println("Пункта меню с таким номер нет ...")
-//      } else {
-//        break
-//      }
-//    }
-//    actionList.find{it.first == nom}!!.second()
-//  }
-  
 }
